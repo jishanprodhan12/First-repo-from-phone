@@ -1,0 +1,1 @@
+right i am doing a job that why i don't have enough time that's why i practice code on phone and run it using termux. and qn genarate by Gemini and i sent him ans and he check my ans and then i push all codes 
