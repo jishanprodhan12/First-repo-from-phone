@@ -1,0 +1,10 @@
+https://api.example.com/v1'
+// QN-012: জাভাস্ক্রিপ্ট মডিউলস (Named Export এবং Import) ব্যবহার।
+
+// A. file: 'config.js'
+//    এই ফাইলে 'BASE_URL' নামে একটি কনস্ট্যান্ট ভেরিয়েবল তৈরি করুন এবং সেটিকে 'export' করুন।
+//    মান: 'https://api.example.com/v1'
+
+// B. file: 'app.js'
+//    'config.js' থেকে export করা 'BASE_URL' ভেরিয়েবলটিকে 'import' করুন এবং কনসোলে প্রিন্ট করার জন্য প্রয়োজনীয় কোড লিখুন।
+
