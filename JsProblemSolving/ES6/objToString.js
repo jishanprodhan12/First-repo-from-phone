@@ -1,0 +1,33 @@
+// QN-030: অবজেক্ট প্রোপার্টি থেকে একটি স্ট্রিং তৈরি।
+// 'userInfo' নামে একটি অবজেক্ট আছে।
+/*const userInfo = {
+    firstName: 'Rimi',
+    lastName: 'Islam',
+    age: 28,
+    city: 'Khulna'
+};*/
+
+// 1. একটি ফাংশন তৈরি করুন যার নাম হবে 'formatUserInfo'।
+// 2. ফাংশনটি 'Object.entries()' মেথড ব্যবহার করে অবজেক্টের সমস্ত কী এবং ভ্যালু অ্যারেতে নিয়ে আসবে।
+// 3. এরপর, এই ডেটাগুলিকে একটি স্ট্রিং-এ পরিণত করতে হবে, যেখানে প্রতিটি প্রোপার্টি নিচের ফরম্যাটে থাকবে:
+//    "key is value" এবং প্রতিটি জোড়া একটি কমা ও স্পেস (', ') দিয়ে আলাদা করা হবে।
+// 
+// 4. চূড়ান্ত স্ট্রিংটি কনসোলে প্রিন্ট করার জন্য প্রয়োজনীয় কোড লিখুন।
+//    প্রত্যাশিত আউটপুট: "firstName is Rimi, lastName is Islam, age is 28, city is Khulna"
+
+const userInfo = {
+    firstName: 'Rimi',
+    lastName: 'Islam',
+    age: 28,
+    city: 'Khulna'
+};
+
+function formatUserInfo(obj) {
+    return Object.entries(obj)
+        .map(([key, value]) => `${key} is ${value}`)
+        .join(', ');
+}
+
+const result = formatUserInfo(userInfo);
+
+console.log(result);
